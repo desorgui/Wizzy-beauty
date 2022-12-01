@@ -1,0 +1,1092 @@
+<!--
+  Template Name   : Wigui - Beauty | The Multi-Purpose HTML5 Blog Template
+  Author          : Wiguibillion - Desor Guishny
+  ThemeForest     : https://themeforest.net/user/desorgui
+  Contact         : wiguibillion@gmail.com
+  Created         : June 5th 2021
+  License         : You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<!-- :: Head -->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Wiguibillion - Desor Guishny" />
+	<meta name="description" content="Here is a precise description of my awesome webpage." />
+	<meta name="theme-color" content="rgba(222, 184, 135, 0.664)" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="keywords" content="wigui, education, beauty, blog, personal, news, creative, clean, technology, multipurpose, product, product launch, responsive, software, startup" />
+		<title>Beauty</title>
+		<link rel="icon" type="image/png" href="img/logo2.png" />
+
+		<!--:: CSS Files -->
+		<link rel="stylesheet" href="fontawesome/css/all.css" type="text/css" />
+		<link rel="stylesheet" href="./assets/css/lib/bootstrap.css" />
+		<link rel="stylesheet" href="./assets/css/lib/font-awesome.min.css" />
+		<link
+			rel="stylesheet"
+			href="./assets/css/theme/style.css"
+			type="text/css"
+		/>
+		<link rel="stylesheet" href="./assets/css/theme/beauty.css" />
+		<link rel="stylesheet" href="./assets/css/theme/dark.css" type="text/css" />
+	</head>
+	<body>
+		<div class="topHeader">
+			<!-- :: Navbar -->
+			<nav class="th-nav-st1">
+				<div class="container">
+					<!-- nav content -->
+					<div
+						class="
+							nav-content
+							d-flex
+							align-items-center
+							justify-content-between
+						"
+					>
+						<!-- brand -->
+						<a href="index.html" class="brand">
+							<img
+								src="img/logo2.png"
+								class="img-fluid"
+								alt="logo"
+								loading="lazy"
+								decoding="async"
+							/>
+							Wigui
+						</a>
+
+						<!-- Search -->
+						<div class="search_container" id="search_containerId">
+							<div class="searchBox">
+								<input type="checkbox" class="searchCheck" id="searchCheck" />
+								<input
+									class="searchInput"
+									type="text"
+									name="search"
+									placeholder="Search"
+								/>
+								<button class="searchButton">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- togle dark/light-->
+						<a href="javascript:void(0);" class="sun">
+							<i class="fas fa-sun"></i>
+						</a>
+						<a href="javascript:void(0);" class="moon">
+							<i class="fas fa-moon"></i>
+						</a>
+						<div class="toggle">
+							<input type="checkbox" class="checkbox" id="chk" />
+							<div class="label">
+								<i class="fas fa-moon"></i>
+								<i class="fas fa-sun"></i>
+								<div class="ball" onClick="too()"></div>
+							</div>
+						</div>
+						<!-- links -->
+
+						<ul
+							class="
+								nav-links
+								list-unstyled
+								d-lg-flex
+								align-items-center
+								justify-content-end
+								mb-0
+							"
+						>
+							<!-- nav item has dropdown -->
+							<li class="th-nav-item position-relative">
+								<a
+									href="index.html"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>home</a
+								>
+								
+							</li>
+
+							<!-- nav item has dropdown -->
+							<li class="th-nav-item has-dropdown position-relative">
+								<a
+									href="#"
+									onclick="return false;"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>pages</a
+								>
+								<!-- dropdown list -->
+								<ul class="th-dropdown-list list-unstyled mb-0">
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="author.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Author</a
+										>
+									</li>
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="category.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Category</a
+										>
+									</li>
+									
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="single.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Single</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<!-- nav item -->
+							<li class="th-nav-item position-relative">
+								<a
+									href="#"
+									onclick="return false;"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>About Us</a
+								>
+							</li>
+						</ul>
+
+						<!-- toggler Menu-->
+						<button class="nav-toggler d-lg-none d-block" id="nav_toggler">
+							<span class="d-block w-100"></span>
+							<span class="d-block w-100"></span>
+							<span class="d-block w-100"></span>
+						</button>
+					</div>
+				</div>
+			</nav>
+			<!--Search max width 991px-->
+			<div class="search">
+				<input
+					class="searchInput2"
+					type="text"
+					name="Search2"
+					placeholder="Search"
+				/>
+				<button class="searchButton2">
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</div>
+		<!-- Banner Begin -->
+		<div class="container_section" style="max-width: 1140px">
+			<div class="topModel_container">
+				<div class="topModel">
+					<div class="topModel_text">
+						<h2>The Beauty</h2>
+						<p>
+							The quality present in a thing or person that gives intense
+							pleasure or deep satisfaction to the mind
+						</p>
+					</div>
+					<h1 class="topModel_text_vertical">Tops Model</h1>
+					<!-- Top Model 1 -->
+					<div class="first_model">
+						<div class="model_content model1">
+							<div class="model1_img">
+								<img
+									alt="illustration Image"
+									decoding="async"
+									src="beauty/clothes/celebrities.jpg"
+									loading="lazy"
+									title="Extreme beauty"
+								/>
+							</div>
+						</div>
+					</div>
+					<!-- Top Model 2 -->
+					<div class="second_model">
+						<div class="model_content model2">
+							<div class="model2_img">
+								<img
+									alt="illustration Image"
+									decoding="async"
+									src="beauty/clothes/model.jpg"
+									loading="lazy"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Banner End -->
+
+		<!-- Category Navigation section -->
+		<div class="container_section">
+			<h1>Explore by our <span>category</span></h1>
+			<div class="category_container">
+				<!-- Category face care -->
+				<div class="category">
+					<div class="category_icon">
+						<img
+							alt="illustration Image"
+							decoding="async"
+							src="beauty/face_care.png"
+							loading="lazy"
+						/>
+					</div>
+					<div class="category_text">
+						<h3>Face Care</h3>
+					</div>
+					<a href="#face"><div class="link_category"></div></a>
+				</div>
+
+				<!-- Category Hair -->
+				<div class="category">
+					<div class="category_icon">
+						<img
+							alt="illustration Image"
+							decoding="async"
+							src="beauty/hairstyle.png"
+							loading="lazy"
+						/>
+					</div>
+					<div class="category_text">
+						<h3>Hair</h3>
+					</div>
+					<a href="#hair"><div class="link_category"></div></a>
+				</div>
+
+				<!-- Category Clothes -->
+				<div class="category">
+					<div class="category_icon">
+						<img
+							alt="illustration Image"
+							decoding="async"
+							src="beauty/clothes.png"
+							loading="lazy"
+						/>
+					</div>
+					<div class="category_text">
+						<h3>Clothes</h3>
+					</div>
+					<a href="#clothes"><div class="link_category"></div></a>
+				</div>
+
+				<!-- Category Nails -->
+				<div class="category">
+					<div class="category_icon">
+						<img
+							alt="illustration Image"
+							decoding="async"
+							src="beauty/nails.png"
+							loading="lazy"
+						/>
+					</div>
+					<div class="category_text">
+						<h3>Nails</h3>
+					</div>
+					<a href="#nails"><div class="link_category"></div></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Face Care Posts section -->
+		<div class="container_section" id="face">
+			<div class="category_view">
+				<h1>Face care</h1>
+				<a href="category.html">View more</a>
+			</div>
+			<div class="contsinglePost">
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/face/facerecipe.jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3><a href="single.html">Avocado benefits for skin</a></h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/face/beauty(7).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3><a href="single.html">7 Best Under-Eye Patches for you</a></h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/face/newb(22).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html">the application rules of face mask</a>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/face/newb(25).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html">Correct order of skin care products</a>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sponsor_bg">
+			<div class="container_section" style="max-width: 1400px">
+				<div class="sponsor">
+					<div class="sponsor_img">
+						<img
+							alt="illustration Image"
+							decoding="async"
+							src="beauty/face/beauty(4).jpg"
+							loading="lazy"
+						/>
+					</div>
+					<div class="gradient"></div>
+					<div class="sponsor_text">
+						<div class="container_stone">
+							<div class="stone">
+								<div class="stone_content">
+									<h1 class="carved-text">Our Sponsor</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Hair Style Post Section-->
+		<div class="container_section" id="hair">
+			<div class="category_view">
+				<h1>Hair style</h1>
+				<a href="category.html">View more</a>
+			</div>
+			<div class="contsinglePost">
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/hair/newb(19).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html">How to make Orange Oil for hair Growth</a>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/hair/newb(6).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html"
+								>Washing hair: Recommendations and alternatives</a
+							>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/hair/newb(10).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3><a href="single.html">The beauty Exceptionnal</a></h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/hair/newb(15).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html"
+								>8 Best Curly Hair tips - How to Style curly hair</a
+							>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Section Exceptionnal-->
+		<div class="container_section" style="max-width: 1400px">
+			<div class="dress_section">
+				<div class="dress_model_01">
+					<div class="dress_model_01_img">
+						<img
+							alt="illustration Image"
+							decoding="async"
+							src="beauty/clothes/newb(11).jpg"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+
+				<div class="dress_absolute_div"></div>
+				<div class="dress_absolute_text">
+					<h4 class="dress_text">How to dress</h4>
+				</div>
+				<div class="dress_model_02">
+					<div class="dress_model_02_img">
+						<img
+							alt="illustration Image"
+							decoding="async"
+							src="beauty/clothes/newb(3).jpg"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Clothes Post Section-->
+		<div class="container_section" id="clothes">
+			<div class="category_view">
+				<h1>Clothes style</h1>
+				<a href="category.html">View more</a>
+			</div>
+			<div class="contsinglePost">
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/clothes/beauty(20).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html">How to dress properly for any occasion.</a>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/clothes/newb(20).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html"
+								>15 Types of Dresses For every Women should know.</a
+							>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/clothes/newb(12).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html">The different types of fashion Styles.</a>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/clothes/newb(13).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3><a href="single.html">How to Find Your personnal Style.</a></h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Nails Posts Section-->
+		<div class="container_section" id="nails">
+			<div class="category_view">
+				<h1>Nails style</h1>
+				<a href="category.html">View more</a>
+			</div>
+			<div class="contsinglePost">
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/nails/newb(16).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html"
+								>Benefits of Manicure and Pedicure you shouldn't ignore.</a
+							>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/nails/newb(8).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html"
+								>Is it safe to Use a UV light For your Nail? Risk, Advantage.</a
+							>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/nails/newb(7).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html"
+								>Natural Nails! Seven Ways to keep them Pretty Naturally.</a
+							>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+				<!--Single Post end-->
+
+				<!--Single Post begin-->
+				<div class="singlePost">
+					<!--Image-->
+					<div class="singlePost_img">
+						<a href="single.html"
+							><img
+								alt="illustration Image"
+								decoding="async"
+								src="beauty/nails/newb(14).jpg"
+								loading="lazy" />
+							<div class="cover_img"></div
+						></a>
+					</div>
+					<!--Post Text and Meta data-->
+					<div class="singlePost_text">
+						<h3>
+							<a href="single.html">Live everyday with long nails how to do?</a>
+						</h3>
+						<p class="post-meta">
+							<span class="tie-date">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								January 28, 2021
+							</span>
+							<span class="post-cats">
+								<i class="fa fa-folder" aria-hidden="true"></i>
+								<a href="category.html" rel="category tag">Face care</a>
+							</span>
+							<span class="post-views">
+								<i class="fa fa-eye" aria-hidden="true"></i>28
+							</span>
+						</p>
+						<p class="description">
+							Lorem ipsum dolor satum ligiut jamali uturam amaliko wigunfid
+							polish amolinus kalustes
+						</p>
+						<a class="read_more" href="single.html">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Scroll To Top-->
+		<div class="scroll_to_top">
+			<button id="to_top" title="Go to top"></button>
+		</div>
+		<!--Footer Section-->
+		<footer>
+			<div class="footer">
+				<a href="facebook.com"><i class="fa fa-facebook-f"></i></a>
+				<a href="twitter.com"><i class="fab fa-twitter "></i></a>
+				<a href="google.com"><i class="fab fa-google-plus-g"></i></a>
+				<a href="gmail.com"><i class="fa fa-envelope"></i></a>
+				<a href="contact.html"><i class="fa fa-phone"></i></a>
+				<p>
+					© Wiguiblog 2021. All Rights Reserved || Designed By:
+					<a href="themeforest.net/desorgui">Wigui</a>
+				</p>
+			</div>
+		</footer>
+		<!--End Footer Section-->
+		<!-- :: Scripts -->
+		<script src="./assets/js/lib/jquery-3.3.1.min.js"></script>
+		<script src="./assets/js/lib/bootstrap.min.js"></script>
+		<script src="./assets/js/lib/fontAwesome.js"></script>
+		<script src="./assets/js/theme/theme.js"></script>
+
+		<script></script>
+	</body>
+</html>
