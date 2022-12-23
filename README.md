@@ -39,7 +39,7 @@
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[Wizzy-beauty]** is a Front end template build with Html css and Javascript to Show a list of blog post related to beauty.
+**[Wizzy-beauty]** is a Front end template build with Html css and Javascript to Show a list of blog post that can be used to show content about beauty or other type of content.
 
 ## 🛠 Built With <a name="built-with"></a>
 
