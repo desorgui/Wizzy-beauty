@@ -5,7 +5,7 @@
   <img src="./img/logo2.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Wizzy-beauty</b></h3>
+  <h3><b>Wizzy Collection</b></h3>
 
 </div>
 
